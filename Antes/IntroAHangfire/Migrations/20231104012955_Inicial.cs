@@ -4,8 +4,10 @@
 
 namespace IntroAHangfire.Migrations
 {
+    /// <inheritdoc />
     public partial class Inicial : Migration
     {
+        /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
@@ -22,6 +24,7 @@ namespace IntroAHangfire.Migrations
                 });
         }
 
+        /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
